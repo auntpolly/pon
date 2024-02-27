@@ -1,0 +1,424 @@
+body {
+    font-family: 'Noto Serif JP', serif;
+    font-family: 'Zen Maru Gothic', serif;
+}
+
+body {
+    padding-top: 0px;
+    margin: 0px;
+    color: #707070;
+    background-color: #D3FFD6;
+}
+.site-header {
+    width: 100%;
+    position: sticky;
+    top:0px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.site-logo {
+    margin: 0px auto;
+    padding: 30px;
+    width: 500px;
+    height: auto;
+}
+
+nav .site-nav {
+    font-size: 30px;
+    padding: 30px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.main-img {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    /* 最大幅 */
+    min-width: 240px;
+    /* 最小幅 */
+    /* border: 3px solid pink; */
+}
+
+.main-img img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav,
+main {
+    max-width: 1500px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+}
+
+h2 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: solid 3px black;
+}
+
+.prf-face img {
+    margin-left: 200px;
+    height: 300px;
+    /* border: 3px solid pink; */
+}
+
+.prf-face {
+    display: flex;
+}
+
+.prf-face dl dt {
+    margin: 20px auto 50px 200px;
+    font-size: 50px;
+}
+
+.prf-face dl dd {
+    margin: 20px auto 0px 200px;
+    font-size: 30px;
+}
+
+#prf-szi img {
+    width: 300px;
+}
+
+#prf-szi {
+    display: flex;
+    width: 1230px;
+    margin: 50px auto 0px auto;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#irust-ico {
+    /* margin: 10px 200px 50px 200px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    grid-auto-rows: auto;
+    gap: 10px; */
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#irust-ico img {
+    max-width: 400px;
+    /* 最大幅 */
+    min-width: 240px;
+    /* 最小幅 */
+    /* width: 400px; */
+    height: auto;
+}
+
+#irust-ill {
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#irust-ill img {
+    width: auto;
+    max-height: 500px;
+    /* 最大幅 */
+    min-height: 100px;
+    min-width: 240px;
+    /* 最小幅 */
+    /* height: auto; */
+}
+
+#irust-fanart {
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#irust-fanart img {
+    /* width: 400px; */
+    max-width: 400px;
+    /* 最大幅 */
+    min-width: 240px;
+    /* 最小幅 */
+    height: auto;
+}
+
+#irust-stg {
+    margin: 50px auto 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#irust-stg img {
+    /* width: 600px; */
+    max-width: 600px;
+    /* 最大幅 */
+    min-width: 240px;
+    /* 最小幅 */
+    height: auto;
+}
+
+/* -----有償依頼----- */
+.menu ul{
+height: 100%;
+}
+
+.kihon {
+    border: 5px solid #707070;
+    margin: 0px 30px 15px 30px;
+    border-radius: 30px;
+height: 35%;
+}
+
+.tuika {
+    border: 5px solid #707070;
+    margin: 0px 30px 15px 30px;
+    border-radius: 30px;
+    height: 25%;
+}
+
+.nouhin {
+    border: 5px solid #707070;
+    margin: 0px 30px 15px 30px;
+    border-radius: 30px;
+    height: 20%;
+}
+
+/* -----アイコン用----- */
+.irai-ico {
+    display: flex;
+    margin: 50px 0px;
+}
+
+.irai-ico dl {
+    width: 35%;
+    min-width: 400px;
+    margin: 0px;
+    /* border: 2px solid pink; */
+    font-size: 60px;
+    text-align: center;
+}
+
+.irai-ico dd {
+    margin: 0px;
+}
+
+.irai-ico img {
+    width: 100%;
+}
+
+.irai-ico .menu {
+    flex: 1;
+    /* border: 2px solid pink; */
+}
+
+.irai-ico h3 {
+    font-size: 50px;
+    margin: 10px 40px;
+    border-bottom: 3px solid #707070;
+    text-align: center;
+}
+
+.irai-ico ul {
+    font-size: 30px;
+    list-style: none;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+.irai-btn {
+    border: 5px solid #707070;
+    margin: 0px 30px 15px 30px;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.irai-btn {
+    border: 5px solid #707070;
+    margin: 0px 30px 15px 30px;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+/* -----一枚絵用----- */
+.irai-ill {
+    display: flex;
+    margin: 50px 0px;
+}
+
+.irai-ill dl {
+    width: 35%;
+    min-width: 400px;
+    margin: 0px;
+    /* border: 2px solid pink; */
+    font-size: 60px;
+    text-align: center;
+}
+
+.irai-ill dd {
+    margin: 0px;
+}
+
+.irai-ill img {
+    width: 100%;
+}
+
+.irai-ill .menu {
+    flex: 1;
+    /* border: 2px solid pink; */
+}
+
+.irai-ill h3 {
+    font-size: 50px;
+    margin: 10px 40px;
+    border-bottom: 3px solid #707070;
+    text-align: center;
+}
+
+.irai-ill ul {
+    font-size: 30px;
+    list-style: none;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+/* -----設定資料用----- */
+.irai-stg {
+    display: flex;
+    margin: 50px 0px;
+}
+
+.irai-stg dl {
+    width: 35%;
+    min-width: 400px;
+    margin: 0px;
+    /* border: 2px solid pink; */
+    font-size: 60px;
+    text-align: center;
+}
+
+.irai-stg dd {
+    margin: 0px;
+}
+
+.irai-stg img {
+    width: 100%;
+}
+
+.irai-stg .menu {
+    flex: 1;
+    /* border: 2px solid pink; */
+}
+
+.irai-stg h3 {
+    font-size: 50px;
+    margin: 10px 40px;
+    border-bottom: 3px solid #707070;
+    text-align: center;
+}
+
+.irai-stg ul {
+    font-size: 30px;
+    list-style: none;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+/* -----依頼の流れ----- */
+.irai-nagare {
+    display: flex;
+}
+
+.nagare {
+    width: 30%;
+    font-size: 30px;
+    text-align: center;
+    /* border: 2px solid pink; */
+}
+
+.jouken {
+    flex: 1;
+    font-size: 30px;
+    text-align: center;
+    /* border: 2px solid pink; */
+
+}
+
+.jouken h4 {
+    border-bottom: 3px solid #707070;
+    margin: 15px 0px;
+}
+
+.j-ari {
+    padding: 0px 20px;
+    border: 5px solid #707070;
+    margin: 0px 30px 15px 30px;
+    border-radius: 30px;
+}
+
+.j-ari ul{
+    list-style: none;
+}
+.j-nasi {
+    padding: 0px 20px;
+    border: 5px solid #707070;
+    margin: 0px 30px 15px 30px;
+    border-radius: 30px;
+}
+.j-ari ul{
+    list-style: none;
+    margin: 20px auto;
+    padding: 0px;
+}
+.j-nasi ul{
+    list-style: none;
+    margin: 20px auto;
+    padding: 0px;
+}
+.tyui {
+    flex: 1;
+    font-size: 30px;
+    text-align: center;
+    /* border: 2px solid pink; */
+}
+.tyui h4{
+    margin: 20px 0px 0px 0px;
+}
+.tyui ul{
+    list-style: none;
+    padding: 0px;
+    margin-top: 0px;
+}
+.fotaaa{
+    background-color: rgba(255, 255, 255, 0.8); 
+    text-align: center;
+    height: 100px;
+    width: 100%;
+}
+.fotaaa p{
+    vertical-align: middle;
+}
